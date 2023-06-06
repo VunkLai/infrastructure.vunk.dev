@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "infrastructure-vunk-dev"
+version = "0.1.0"
+description = "Infrastructure for vunk.dev"
+authors = ["vunk.lai <vunk.lai@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+# Pulumi
+pulumi = "^3.69.0"
+pulumi-aws = "^5.41.0"
+# Other
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,5 @@
+name: vunk.dev
+runtime:
+  name: python
+main: infrastructure
+description: Infrastructure for vunk.dev
